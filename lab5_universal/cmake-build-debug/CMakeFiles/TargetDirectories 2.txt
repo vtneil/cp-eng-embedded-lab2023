@@ -1,0 +1,3 @@
+/Users/vivatsathornthitasirivit/Desktop/git_target/stm32/lab5_universal/cmake-build-debug/CMakeFiles/lab5_universal.elf.dir
+/Users/vivatsathornthitasirivit/Desktop/git_target/stm32/lab5_universal/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/vivatsathornthitasirivit/Desktop/git_target/stm32/lab5_universal/cmake-build-debug/CMakeFiles/rebuild_cache.dir

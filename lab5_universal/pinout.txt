@@ -1,0 +1,30 @@
+UART1 (T):
+    TX      A9
+    RX      A10
+
+UART6 (R):
+    TX      C6
+    RX      C7
+
+I2C1 (SEND):
+    SDA     B7
+    SCL     B6
+
+I2C2 (RECEIVE):
+    SDA     B9
+    SCL     B10
+
+SPI2 (MASTER):
+    MISO    C2
+    MOSI    C3
+    SCK     B13
+    NSS     B12
+
+SPI3 (SLAVE):
+    MISO    C11
+    MOSI    C12
+    SCK     C10
+    NSS     A4
+
+GND:
+

@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="lab5_universal"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/vt/Desktop/git_target/stm32/lab5_universal/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/vt/Desktop/git_target/stm32/lab5_universal/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/vt/Desktop/git_target/stm32/lab5_universal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/vt/Desktop/git_target/stm32/lab5_universal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/vt/Desktop/git_target/stm32/lab5_universal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab5_universal.elf">
+				<Option output="/Users/vt/Desktop/git_target/stm32/lab5_universal/cmake-build-debug/lab5_universal.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vt/Desktop/git_target/stm32/lab5_universal/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F411xE"/>
+					<Add directory="/Users/vt/Desktop/git_target/stm32/lab5_universal/Core/Inc"/>
+					<Add directory="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include"/>
+					<Add directory="/Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1"/>
+					<Add directory="/Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi"/>
+					<Add directory="/Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward"/>
+					<Add directory="/Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/include"/>
+					<Add directory="/Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed"/>
+					<Add directory="/Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/vt/Desktop/git_target/stm32/lab5_universal/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab5_universal.elf"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/vt/Desktop/git_target/stm32/lab5_universal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/vt/Desktop/git_target/stm32/lab5_universal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/vt/Desktop/git_target/stm32/lab5_universal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab5_universal.elf/fast">
+				<Option output="/Users/vt/Desktop/git_target/stm32/lab5_universal/cmake-build-debug/lab5_universal.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vt/Desktop/git_target/stm32/lab5_universal/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F411xE"/>
+					<Add directory="/Users/vt/Desktop/git_target/stm32/lab5_universal/Core/Inc"/>
+					<Add directory="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include"/>
+					<Add directory="/Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1"/>
+					<Add directory="/Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi"/>
+					<Add directory="/Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward"/>
+					<Add directory="/Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/include"/>
+					<Add directory="/Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed"/>
+					<Add directory="/Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/vt/Desktop/git_target/stm32/lab5_universal/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab5_universal.elf/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/vt/Desktop/git_target/stm32/lab5_universal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/vt/Desktop/git_target/stm32/lab5_universal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/vt/Desktop/git_target/stm32/lab5_universal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/vt/Desktop/git_target/stm32/lab5_universal/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/vt/Desktop/git_target/stm32/lab5_universal/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/vt/Desktop/git_target/stm32/lab5_universal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/vt/Desktop/git_target/stm32/lab5_universal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/vt/Desktop/git_target/stm32/lab5_universal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/vt/Desktop/git_target/stm32/lab5_universal/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/vt/Desktop/git_target/stm32/lab5_universal/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/vt/Desktop/git_target/stm32/lab5_universal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/vt/Desktop/git_target/stm32/lab5_universal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/vt/Desktop/git_target/stm32/lab5_universal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Core/.DS_Store">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Core/Inc/main.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Core/Inc/stm32f4xx_hal_conf.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Core/Inc/stm32f4xx_it.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Core/Src/main.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Core/Src/stm32f4xx_hal_msp.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Core/Src/stm32f4xx_it.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Core/Src/syscalls.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Core/Src/sysmem.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Core/Src/system_stm32f4xx.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Core/Startup/startup_stm32f411retx.s">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/cmsis_armcc 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/cmsis_armclang 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/cmsis_compiler 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/cmsis_gcc 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/cmsis_iccarm 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/cmsis_version 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/core_armv8mbl 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/core_armv8mml 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/core_cm0 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/core_cm0plus 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/core_cm1 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/core_cm23 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/core_cm3 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/core_cm33 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/core_cm4 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/core_cm7 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/core_sc000 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/core_sc300 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/mpu_armv7 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/mpu_armv8 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/tz_context 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/CMSIS/LICENSE.txt">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def 3.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti 3.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash 3.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex 3.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c 3.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc 3.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi 3.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim 3.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart 3.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma 2.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti 3.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio 3.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c 3.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr 3.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc 3.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system 3.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart 3.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils 3.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal 2.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex 2.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma 2.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex 2.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti 2.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash 2.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex 2.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc 2.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio 2.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c 2.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex 2.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr 2.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex 2.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc 2.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex 2.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi 2.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim 3.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex 2.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart 2.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/STM32F411RETX_FLASH.ld">
+			<Option target="lab5_universal.elf"/>
+		</Unit>
+		<Unit filename="/Users/vt/Desktop/git_target/stm32/lab5_universal/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
